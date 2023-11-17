@@ -1,0 +1,106 @@
+*
+{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --bg-colorOne: #FF7b52;
+    --bg-colorTwo: #26335D;
+    --main-color: #8D5CF6;
+
+    --corner-radius: 5px;
+}
+
+header
+{
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0% 10%;
+    
+    background: linear-gradient(135deg, var(--bg-colorOne) 55%, var(--bg-colorTwo) 55%);
+}
+
+/* navigation */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: transparent;
+    padding: 10px;
+}
+
+#brand-logo img
+{
+    width: 150px;
+}
+
+.nav-links ul, .auth-buttons
+{
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.auth-buttons .btn-2
+{
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+
+    background-color: var(--main-color);
+    border-radius: var(--corner-radius);
+}
+
+.auth-buttons .btn-1
+{
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+
+    background-color: transparent;
+}
+
+.auth-buttons i
+{
+    margin-left: 5px;
+}
+
+.nav-links
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer
+{
+    background: var(--bg-colorTwo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    padding: 50px;
+}
+
+footer ul *
+{
+    margin: 10px 0px;
+}

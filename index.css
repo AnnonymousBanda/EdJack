@@ -1,0 +1,183 @@
+/* main header content */
+header main h1
+{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+header main h2
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header main p
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header main .caption
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    width: 60%;
+}
+
+header main picture img
+{
+    width: 300px;
+    border-radius: var(--corner-radius);
+}
+
+header main
+{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* info buttons */
+.info-buttons .btn-1
+{
+    padding: 15px 20px;
+    border-radius: var(--corner-radius);
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+
+.info-buttons .btn-2
+{
+    padding: 15px 20px;
+    border-radius: var(--corner-radius);
+    background: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.info-buttons *
+{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info-buttons
+{
+    display: flex;
+    gap: 30px;
+}
+
+/* card */
+main .card img
+{
+    width: 50px;
+    padding: 10px;
+    border-radius: var(--corner-radius);
+    background: var(--bg-colorOne);
+}
+
+main .card
+{
+    width: 300px;
+    padding: 50px;
+    background: #fff;
+    border-radius: var(--corner-radius);
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .card-containeer
+{
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg-colorTwo);
+
+    padding: 50px 10%;
+    gap: 20px;
+}
+
+main .card h2
+{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main .card p
+{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* records */
+main .records
+{
+    background: var(--bg-colorTwo);
+    padding: 150px 10%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+main .records h5
+{
+    color: var(--main-color);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+main .records p
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* courses */
+main .courses
+{
+    padding: 100px 10%;
+    background: var(--bg-colorTwo);
+}
+
+main .courses h6
+{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+main .courses h2
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+main .courses p
+{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+main img
+{
+    width: 200px;
+}
+
+main .courses-card
+{
+    display: flex;
+    justify-content: space-around;
+}
