@@ -104,3 +104,8 @@ footer ul *
 {
     margin: 10px 0px;
 }
+
+footer ul
+{
+    margin: 0px 20px;
+}

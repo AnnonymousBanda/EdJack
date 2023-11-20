@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>EdJack-login</title>
+
+    <!-- link to external stylesheet -->
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="common.css" />
+
+    <!-- link to remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- link to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;900&family=Comic+Neue:wght@300;400&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link to favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="home">
+        <a href="index.html" id="brand-logo">
+          <img src="./img/logo.png" title="Brand-Logo" alt="brand-logo" />
+        </a>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="courses.html">Courses</a></li>
+          </ul>
+        </div>
+
+        <div class="auth-buttons">
+          <a href="login.html"><button class="btn-1">Login</button></a>
+          <a href="join.html"
+            ><button class="btn-2">
+              JOIN US <i class="ri-arrow-right-line"></i></button
+          ></a>
+        </div>
+      </nav>
+
+      <main>
+        <form>
+          <h3>Login</h3>
+            <div class="data">
+                <label for="Username">Username:</label>
+                <input type="text" name="name" class="input" id="Username">
+            </div>
+
+            <div class="data">
+                <label for="email">E-mail:</label>
+                <input type="email" name="emailaddress" class="input" id="email">
+            </div>
+ 
+            <div class="data">
+                <label for="pwd">Password:</label>
+                <input type="password" name="password" class="input" id="pwd">
+            </div>
+
+            <input type="submit" id="login" value="login">
+        </form>
+      </main>
+    </header>
+
+    <footer>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="courses.html">Courses</a></li>
+          </ul>
+
+          <ul>
+              <li><a href="#home">Login</a></li>
+              <li><a href="join.html">Join Us</a></li>
+          </ul>
+
+          <ul>
+              <li>Get in touch</li>
+              <li>+919051702915</li>
+              <li><a href="mailto:annonymous007banda@gmail.com">annonymous007banda@gmail.com</a></li>
+          </ul>
+      </nav>
+      <div>
+          <p>&copy; 2023 Ankit Bhagat aka annonymousbanda. All Rights Reserved.</p>
+      </div>
+  </footer>
+  </body>
+</html>
