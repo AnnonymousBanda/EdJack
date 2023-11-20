@@ -29,7 +29,7 @@ header
 
     padding: 0% 10%;
     
-    background: linear-gradient(135deg, var(--bg-colorOne) 50%, var(--bg-colorTwo) 50%);
+    background: linear-gradient(135deg, var(--bg-colorOne) 35%, var(--bg-colorTwo) 35%);
 }
 
 /* navigation */
