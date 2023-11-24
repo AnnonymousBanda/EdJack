@@ -42,34 +42,30 @@ header main
 }
 
 /* info buttons */
-.info-buttons .btn-1
+.info-buttons .btn
 {
-    padding: 15px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 30px;
     border-radius: var(--corner-radius);
     background: var(--main-color);
+    border: 2px solid #fff;
     cursor: pointer;
+    transition: all 1s ease;
 }
 
 
-.info-buttons .btn-2
+.info-buttons .btn:hover
 {
-    padding: 15px 20px;
-    border-radius: var(--corner-radius);
     background: transparent;
     border: 2px solid #fff;
     cursor: pointer;
 }
 
-.info-buttons *
-{
-    font-size: 14px;
-    font-weight: 400;
-}
-
 .info-buttons
 {
     display: flex;
-    gap: 30px;
+    justify-content: center;
 }
 
 /* card */
@@ -173,11 +169,42 @@ main .courses p
 
 main img
 {
-    width: 200px;
+    width: 240px;
 }
 
 main .courses-card
 {
     display: flex;
     justify-content: space-around;
+}
+
+form
+{
+    background: var(--bg-colorTwo);
+    padding: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#email
+{
+    width: 300px;
+    height: 40px;
+    padding: 0px 5px;
+
+    border-top-left-radius: var(--corner-radius);
+    border-bottom-left-radius: var(--corner-radius);
+    font-weight: 500;
+    color: black;
+}
+
+#submit
+{
+    background: var(--main-color);
+    border: 1px #fff solid;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-top-right-radius: var(--corner-radius);
+    border-bottom-right-radius: var(--corner-radius);
 }
